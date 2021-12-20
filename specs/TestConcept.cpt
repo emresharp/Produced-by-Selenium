@@ -1,0 +1,95 @@
+
+#OPEN
+* Wait "3" seconds
+* Click to "//button[contains(text(),'Got it')]"
+* Click to "//body/app-root[1]/div[1]/app-beatmaker[1]/div[1]/div[5]/i[1]"
+* Click to "//body/app-root[1]/div[1]/app-beatmaker[1]/div[1]/div[5]/i[1]"
+* Click to "//body/app-root[1]/div[1]/app-beatmaker[1]/div[1]/div[5]/i[1]"
+* Click to "//body/app-root[1]/div[1]/app-beatmaker[1]/div[1]/div[5]/i[1]"
+
+# RANDOM BPM
+* Create Random BPM to "//input[@id='bpm']" and Click to "//body/app-root[1]/div[1]/app-beatmaker[1]/div[1]/div[2]/div[2]/app-bpm[1]/div[1]/form[1]/div[1]"
+* Wait "3" seconds
+
+# SET BPM 90
+* Click to "//body/app-root[1]/div[1]/app-beatmaker[1]/div[1]/div[2]/div[2]/app-clear-pattern[1]/span[1]"
+* Sendkeys to "//input[@id='bpm']" BPM "90"
+* Click to "//body/app-root[1]/div[1]/app-beatmaker[1]/div[1]/div[2]/div[2]/app-play-controls[1]/span[1]/a[1]"
+
+# CREATE STRAIGHT PATTERN
+* Instrument Control
+* Instrument Selecting
+* Random Straight Kick Drum Pattern
+* Instrument Control
+* Instrument Selecting
+* Random Straight Snare Pattern
+* Instrument Control
+* Instrument Selecting
+* Random Straight Closed HiHat Pattern
+* Instrument Control
+* Instrument Selecting
+* Random Open Hihat Pattern
+* Instrument Control
+* Instrument Selecting
+* Random Tom Pattern
+* Instrument Control
+* Instrument Selecting
+* Random Percussion Pattern
+* Instrument Control
+* Instrument Selecting
+* Random FX Pattern
+* Instrument Control
+* Instrument Selecting
+* Random Synth Hit Pattern
+* Instrument Control
+* Instrument Selecting
+* Wait "10" seconds
+* Click to "//body/app-root[1]/div[1]/app-beatmaker[1]/div[1]/div[2]/div[2]/app-clear-pattern[1]/span[1]"
+
+# CREATE LAST STRAIGHT PATTERN
+* Instrument Control
+* Instrument Selecting
+* Random Straight Kick Drum Pattern
+* Instrument Control
+* Instrument Selecting
+* Random Straight Snare Pattern
+* Instrument Control
+* Instrument Selecting
+* Random Straight Closed HiHat Pattern
+* Instrument Control
+* Instrument Selecting
+* Random Open Hihat Pattern
+* Instrument Control
+* Instrument Selecting
+* Random Tom Pattern
+* Instrument Control
+* Instrument Selecting
+* Random Percussion Pattern
+* Instrument Control
+* Instrument Selecting
+* Random FX Pattern
+* Instrument Control
+* Instrument Selecting
+* Random Synth Hit Pattern
+
+#LISTEN
+* Wait "10" seconds
+
+#SAVE
+* Click to "//body/app-root[1]/div[1]/app-beatmaker[1]/div[1]/div[2]/div[2]/app-save-btn[1]/span[1]"
+* Wait "1" seconds
+* Click to "//body/app-root[1]/app-modal-view[1]/div[2]/app-sign-up-modal[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/p[1]/a[1]"
+* Wait "1" seconds
+* Sendkeys "//input[@id='username']" to "yourmail"
+* Sendkeys "//input[@id='password']" to "yourpassword"
+* Click to "//body/app-root[1]/div[1]/app-sign-in[1]/div[1]/form[1]/div[1]/div[1]/app-spinner-button[1]/div[1]/button[1]"
+* Wait "3" seconds
+* Click to "//body/app-root[1]/div[1]/app-beatmaker[1]/div[1]/div[2]/div[2]/app-save-btn[1]/span[1]"
+* Wait "1" seconds
+* Sendkeys "//body/app-root[1]/app-modal-view[1]/div[2]/app-save-modal[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/input[1]" to "Produced by Selenium"
+* Wait "1" seconds
+* Click to "//body/app-root[1]/app-modal-view[1]/div[2]/app-save-modal[1]/div[1]/div[1]/div[2]/form[1]/div[2]/a[1]"
+* Wait "1" seconds
+* Click to "//body/app-root[1]/app-modal-view[1]/div[2]/app-save-modal[1]/div[1]/div[1]/div[2]/div[1]/input[1]"
+* Wait "1" seconds
+* Copy The Link "//head/meta[11]"
